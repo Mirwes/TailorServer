@@ -63,7 +63,7 @@ app.post('/api/forma', (req,res)=> {
 
 const PORT = process.env.PORT||5000;
 app.listen(PORT,()=>{
-    // console.log(`server starting at port ${PORT}`);
+    console.log('server starting at port 5000');
     
 })
 
