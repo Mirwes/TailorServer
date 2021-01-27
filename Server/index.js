@@ -13,7 +13,8 @@ app.use(cors());
 
 // var myResizeBy = resizeBy; 
 app.get('/',()=>{
-    resizeBy.send('welcom to my forma')
+    // resizeBy.send('welcom to my forma')
+    console.log('welcom to forma');
 })
 
 app.post('/api/forma', (req,res)=> {
